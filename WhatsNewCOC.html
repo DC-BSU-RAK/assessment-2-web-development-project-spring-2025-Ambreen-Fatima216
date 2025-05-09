@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="AboutCOC.css"> 
+  <style>
+    /* Cards */
+    .news-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .news-card {
+      background-color: #9bbac2;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+    }
+
+    .news-card img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .news-card h3 {
+      padding: 15px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+      text-align: center;
+    }
+
+    .news-card a {
+      display: block;
+      text-align: center;
+      padding: 10px;
+      background-color: #f9b300;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .news-card a:hover {
+      background-color: #c77900;
+    }
+
+    .news-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    h3 {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #fff;
+    }
+
+    a {
+      color: #f9b300;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .banner {
+      position: relative;
+      text-align: center;
+    }
+
+    .banner img {
+      width: 100%;
+      height: auto;
+    }
+
+    .bannertext {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-shadow: 2px 2px 8px black;
+    }
+
+
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="ClashOfClans.html" class="logo">
+        <img src="COCLOGO.png" alt="Clash of Clans Logo">
+      </a>
+      <ul class="nav-links">
+        <li><a href="ClashOfClans.html">Home</a></li>
+        <li><a href="AboutCOC.html">About</a></li>
+        <li><a href="GamePlays.html">Gameplays</a></li>
+        <li><a href="ReviewsCOC.html">Reviews</a></li>
+        <li><a href="WhatsNewCOC.html">What's New</a></li>
+        <li><a href="DISCOVERMORECOC.html">Discover More</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Background Audio -->
+  <audio id="bg-audio" autoplay loop>
+    <source src="ClashTheme.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <button id="mute-toggle">🔊 Mute</button>
+  <script src="COC.js"></script>
+
+  <!-- Banner -->
+  <div class="banner">
+    <img src="AboutBanner.jpeg" alt="Clash of Clans About Banner">
+    <div class="bannertext">
+      <h2>Game News</h2>
+      <p>Keeping up with the Clans</p>
+    </div>
+  </div>
+
+  <!-- News Section -->
+  <div class="news">
+    <div class="news-grid">
+      <div class="news-card">
+        <img src="News image 1.webp" alt="High Seas Season">
+        <h3>Battle for the High Seas Season!</h3>
+        <a href="https://supercell.com/en/games/clashofclans/blog/news/battle-for-the-high-seas-season/" target="_blank" rel="noopener noreferrer">Read More</a>
+      </div>
+      <div class="news-card">
+        <img src="News image 2.webp" alt="Medal Event">
+        <h3>The Friend or Foe Medal Event is Here!</h3>
+        <a href="https://supercell.com/en/games/clashofclans/blog/news/the-friend-or-foe-medal-event-is-here/" target="_blank" rel="noopener noreferrer">Read More</a>
+      </div>
+      <div class="news-card">
+        <img src="News image 3.webp" alt="ClashaMania">
+        <h3>Welcome to ClashaMania Featuring Rhea Ripley!</h3>
+        <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/welcome-to-clashamania-/" target="_blank" rel="noopener noreferrer">Read More</a>
+      </div>
+      <div class="news-card">
+        <img src="News image 4.webp" alt="Clash Anytime Update">
+        <h3>Welcome to Clash Anytime Update!</h3>
+        <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/welcome-to-clash-anytime-update/" target="_blank" rel="noopener noreferrer">Read More</a>
+      </div>
+      <div class="news-card">
+        <img src="News image 4.webp" alt="Clash Anytime Update">
+        <h3>Welcome to Clash Anytime Update!</h3>
+        <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/welcome-to-clash-anytime-update/" target="_blank" rel="noopener noreferrer">Read More</a>
+      </div>
+      <div class="news-card">
+        <img src="News image 4.webp" alt="Clash Anytime Update">
+        <h3>Welcome to Clash Anytime Update!</h3>
+        <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/welcome-to-clash-anytime-update/" target="_blank" rel="noopener noreferrer">Read More</a>
+      </div>
+      <div class="news-card">
+        <img src="News image 4.webp" alt="Clash Anytime Update">
+        <h3>Welcome to Clash Anytime Update!</h3>
+        <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/welcome-to-clash-anytime-update/" target="_blank" rel="noopener noreferrer">Read More</a>
+      </div>
+      <div class="news-card">
+        <img src="News image 4.webp" alt="Clash Anytime Update">
+        <h3>Welcome to Clash Anytime Update!</h3>
+        <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/welcome-to-clash-anytime-update/" target="_blank" rel="noopener noreferrer">Read More</a>
+      </div>
+      <div class="news-card">
+        <img src="News image 4.webp" alt="Clash Anytime Update">
+        <h3>Welcome to Clash Anytime Update!</h3>
+        <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/welcome-to-clash-anytime-update/" target="_blank" rel="noopener noreferrer">Read More</a>
+      </div>
+      <div class="news-card">
+        <img src="News image 4.webp" alt="Clash Anytime Update">
+        <h3>Welcome to Clash Anytime Update!</h3>
+        <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/welcome-to-clash-anytime-update/" target="_blank" rel="noopener noreferrer">Read More</a>
+      </div>
+      <div class="news-card">
+        <img src="News image 4.webp" alt="Clash Anytime Update">
+        <h3>Welcome to Clash Anytime Update!</h3>
+        <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/welcome-to-clash-anytime-update/" target="_blank" rel="noopener noreferrer">Read More</a>
+      </div>
+      <div class="news-card">
+        <img src="News image 4.webp" alt="Clash Anytime Update">
+        <h3>Welcome to Clash Anytime Update!</h3>
+        <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/welcome-to-clash-anytime-update/" target="_blank" rel="noopener noreferrer">Read More</a>
+      </div>
+    </div>
+  </div>
+<!-- Footer -->
+<div class="footer">
+    <p>&copy; 2025 Ambreen's Clash Central. All rights reserved.</p>
+  </div>
+</body>
+</html> 
+    
+</body>
+</html>

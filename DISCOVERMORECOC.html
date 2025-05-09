@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Discover More</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="AboutCOC.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    .bannertext h2 {
+    font-size: 100px;
+}
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .info-card {
+      background-color: #2f3e4d;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .info-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .info-card i {
+      font-size: 40px;
+      color: #f9b300;
+      margin-bottom: 15px;
+    }
+
+    .info-card h2 {
+      font-size: 20px;
+      color: #f9b300;
+      margin-bottom: 10px;
+    }
+
+    .info-card a {
+      display: inline-block;
+      margin: 5px 8px;
+      color: #f9b300;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .info-card a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="ClashOfClans.html" class="logo">
+        <img src="COCLOGO.png" alt="Clash of Clans Logo">
+      </a>
+      <ul class="nav-links">
+        <li><a href="ClashOfClans.html">Home</a></li>
+        <li><a href="AboutCOC.html">About</a></li>
+        <li><a href="GamePlays.html">Gameplays</a></li>
+        <li><a href="ReviewsCOC.html">Reviews</a></li>
+        <li><a href="WhatsNewCOC.html">What's New</a></li>
+        <li><a href="DISCOVERMORECOC.html">Discover More</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Background Audio -->
+  <audio id="bg-audio" autoplay loop>
+    <source src="ClashTheme.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <button id="mute-toggle">🔊 Mute</button>
+  <script src="COC.js"></script>
+
+  <!-- Banner -->
+  <div class="banner">
+    <img src="AboutBanner.jpeg" alt="Clash of Clans About Banner">
+    <div class="bannertext">
+      <h1>Discover More!</h1>
+    </div>
+  </div>
+
+  <!-- Info Cards -->
+  <div class="card-grid">
+    <div class="info-card">
+      <h2>Join the Community</h2>
+      <a href="#">Discord Server</a>
+      <a href="#">Facebook Group</a>
+    </div>
+
+    <div class="info-card">
+      <h2>Follow Us</h2>
+      <a href="https://www.facebook.com/ClashofClans/">ⓕ Facebook</a>
+      <a href="https://www.youtube.com/clashofclans">YouTube</a>
+      <a href="https://x.com/ClashofClans?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>
+      <a href="https://www.instagram.com/clashofclans/?hl=en">Instagram</a>
+    </div>
+
+    <div class="info-card">
+      <i class="fas fa-envelope"></i>
+      <h2>Contact Us</h2>
+      <p>Email us at:</p>
+      <a href="mailto:ClashOfClans@supercell.net">ClashOfClans@supercell.net</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2025 Ambreen's Clash Central. All rights reserved.</p>
+  </div>
+</body>
+</html>

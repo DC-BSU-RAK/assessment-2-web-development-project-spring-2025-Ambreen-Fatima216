@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="AboutCOC.css"> 
+<style>.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-card {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.video-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.video-card iframe {
+    width: 100%;
+    height: 180px;
+    border: none;
+    border-radius: 8px;
+}
+
+.video-card p {
+    margin-top: 10px;
+    color: #fff;
+    font-weight: bold;
+}</style>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="ClashOfClans.html" class="logo">
+        <img src="COCLOGO.png" alt="Clash of Clans Logo">
+      </a>
+      <ul class="nav-links">
+        <li><a href="ClashOfClans.html">Home</a></li>
+        <li><a href="AboutCOC.html">About</a></li>
+        <li><a href="GamePlays.html">Gameplays</a></li>
+        <li><a href="ReviewsCOC.html">Reviews</a></li>
+        <li><a href="WhatsNewCOC.html">What's New</a></li>
+        <li><a href="DISCOVERMORECOC.html">Discover More</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Background Audio -->
+  <audio id="bg-audio" autoplay loop>
+    <source src="ClashTheme.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <button id="mute-toggle">🔊 Mute</button>
+  <script src="COC.js"></script>
+
+  <!-- Banner -->
+  <div class="banner">
+    <img src="AboutBanner.jpeg" alt="Clash of Clans About Banner">
+    <div class="bannertext">
+      <h2>The Legend Behind the Clash</h2>
+      <p>A Journey Through Fire and Strategy</p>
+    </div>
+  </div>
+  <!-- Gameplay Introduction Section -->
+  <section class="main-about gameplay-section">
+    <div class="left">
+      <h1>Epic Gameplays</h1>
+      <p>Step into the arena of war as top players showcase their strongest attacks, defenses, and strategies. From clan wars to builder base raids, relive the action in the most cinematic way possible.</p>
+    </div>
+  </section>
+
+  <!-- Gameplay Platforms -->
+  <section class="platforms">
+
+    <!-- YouTube Section -->
+    <div class="platform">
+      <h2 class="platform-title">YouTube Highlights</h2>
+      <div class="video-grid">
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/aFDfsP2Ce9c" allowfullscreen></iframe>
+            <p>Clash of Clans - Epic Clan Wars Gameplay</p>
+        </div>
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/AkDZR6E4rwU" allowfullscreen></iframe>
+            <p>Town Hall 15 Base Reveal!</p>
+        </div>
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/ahXtrhKqPM4" allowfullscreen></iframe>
+            <p>Top 5 Attack Strategies in 2025</p>
+        </div>
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/uy4_tBSXe5U" allowfullscreen></iframe>
+            <p>Behind the Scenes - Clash Animation</p>
+        </div>
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/I_CwFdp5vHo" allowfullscreen></iframe>
+            <p>Builder Base 2.0 - Everything You Need to Know!</p>
+        </div>
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/R12gDf1Qaug" allowfullscreen></iframe>
+            <p>Celebrating 11 Years of Clash of Clans!</p>
+        </div> 
+    </div>
+    
+
+    <!-- Twitch Section -->
+    <div class="platform">
+      <h2 class="platform-title">Twitch Streams</h2>
+      <div class="video-grid">
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/aFDfsP2Ce9c" allowfullscreen></iframe>
+            <p>Clash of Clans - Epic Clan Wars Gameplay</p>
+        </div>
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/AkDZR6E4rwU" allowfullscreen></iframe>
+            <p>Town Hall 15 Base Reveal!</p>
+        </div>
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/ahXtrhKqPM4" allowfullscreen></iframe>
+            <p>Top 5 Attack Strategies in 2025</p>
+        </div>
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/uy4_tBSXe5U" allowfullscreen></iframe>
+            <p>Behind the Scenes - Clash Animation</p>
+        </div>
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/I_CwFdp5vHo" allowfullscreen></iframe>
+            <p>Builder Base 2.0 - Everything You Need to Know!</p>
+        </div>
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/R12gDf1Qaug" allowfullscreen></iframe>
+            <p>Celebrating 11 Years of Clash of Clans!</p>
+        </div> 
+    </div>
+    
+    <!-- Facebook Gaming Section -->
+    <div class="platform">
+      <h2 class="platform-title">Facebook Gaming</h2>
+      <div class="video-grid">
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/aFDfsP2Ce9c" allowfullscreen></iframe>
+            <p>Clash of Clans - Epic Clan Wars Gameplay</p>
+        </div>
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/AkDZR6E4rwU" allowfullscreen></iframe>
+            <p>Town Hall 15 Base Reveal!</p>
+        </div>
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/ahXtrhKqPM4" allowfullscreen></iframe>
+            <p>Top 5 Attack Strategies in 2025</p>
+        </div>
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/uy4_tBSXe5U" allowfullscreen></iframe>
+            <p>Behind the Scenes - Clash Animation</p>
+        </div>
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/I_CwFdp5vHo" allowfullscreen></iframe>
+            <p>Builder Base 2.0 - Everything You Need to Know!</p>
+        </div>
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/R12gDf1Qaug" allowfullscreen></iframe>
+            <p>Celebrating 11 Years of Clash of Clans!</p>
+        </div> 
+    </div>
+    
+
+  </section>
+
+  <!-- Footer -->
+  <div class="footer">
+    2025 Ambreen's Clash Central. All rights reserved.
+  </div>
+
+</body>
+</html>
