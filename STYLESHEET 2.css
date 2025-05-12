@@ -25,7 +25,7 @@ body {
     top: 0;
     z-index: 1000;
 }
-
+/*NAVBAR CONTAINER*/
 .nav-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -34,11 +34,11 @@ body {
     justify-content: space-between;
     padding: 10px 30px;
 }
-
+/*IMAGE LOGO*/
 .logo img {
     height: 70px;
 }
-
+/*NAV LINKS DISPLAY*/
 .nav-links {
     list-style: none;
     display: flex;
@@ -52,7 +52,7 @@ body {
     font-size: 20px;
     transition: color 0.3s ease;
 }
-
+/*NAVLINKS HOVER EFFECT*/
 .nav-links li a:hover {
     color: #5c1d00;
 }
