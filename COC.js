@@ -1,4 +1,4 @@
-// This is for the audio to be played in the background of the website
+// This is for the background audio to be played in the background of the website
 const audio = document.getElementById('bg-audio');
   const toggleButton = document.getElementById('mute-toggle');
 
