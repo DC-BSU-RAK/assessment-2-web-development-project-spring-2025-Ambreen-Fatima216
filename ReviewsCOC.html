@@ -8,21 +8,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="STYLESHEET 2.css"> 
   <style>
-    /* Review Section Layout */
+/* Review Section Layout */
 .review-section {
   background-color: #0b0b0b;
   padding: 60px 40px 20px;
   color: #fff;
   text-align: center;
 }
-
+/*REVIEW HEADING STYLING*/
 .review-section h1 {
   font-size: 2.5em;
   margin-bottom: 15px;
   color: #f9a825;
   text-shadow: 1px 1px 5px #000;
 }
-
+/*PARA STYLE REVIEW*/
 .review-section p {
   font-size: 1.1em;
   color: #ccc;
@@ -49,7 +49,7 @@
   box-shadow: 0 0 25px rgba(255, 191, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+/*TRANSITION ON CARD*/
 .review-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 0 30px rgba(255, 213, 0, 0.35);
@@ -76,7 +76,7 @@
   letter-spacing: 2px;
 }
 
-/* Optional: Add Review Button */
+/*Add Review Button */
 .add-review {
   margin-top: 20px;
   display: inline-block;
@@ -97,38 +97,44 @@
 </head>
 
 <body>
-  <!-- Navigation Bar -->
-  <nav class="navbar">
-    <div class="nav-container">
-      <a href="ClashOfClans.html" class="logo">
-        <img src="COCLOGO.png" alt="Clash of Clans Logo">
+<!-- Navigation Bar -->
+<nav class="navbar">
+  <div class="nav-container">
+<!-- Navigation Bar IMAGE LOGO-->
+      <a href="index.html" class="logo">
+          <img src="COCLOGO.png" alt="Clash of Clans Logo">
       </a>
+      <!-- Navigation Bar LINKS -->
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="AboutCOC.html">About</a></li>
-        <li><a href="GamePlays.html">Gameplays</a></li>
-        <li><a href="ReviewsCOC.html">Reviews</a></li>
-        <li><a href="WhatsNewCOC.html">What's New</a></li>
-        <li><a href="DISCOVERMORECOC.html">Discover More</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="AboutCOC.html">About</a></li>
+          <li><a href="GamePlays.html">Gameplays</a></li>
+          <li><a href="ReviewsCOC.html">Reviews</a></li>
+          <li><a href="WhatsNewCOC.html">What's New</a></li>
+          <li><a href="DISCOVERMORECOC.html">Discover More</a></li>
       </ul>
-    </div>
-  </nav>
+  </div>
+</nav>
 
-  <!-- Background Audio -->
-  <audio id="bg-audio" autoplay loop>
-    <source src="ClashTheme.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-  <button id="mute-toggle">🔊 Mute</button>
-  <script src="COC.js"></script>
+<!--Background Audio THAT AUTOPLAYS-->
+<audio id="bg-audio" autoplay loop>
+  <source src="ClashTheme.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<!-- BUTTON TO MUTE AND UNMUTE-->
+<button id="mute-toggle">🔊 Mute</button>
+<script src="COC.js"></script>
 
-  <!-- Banner -->
-  <div class="banner">
-    <img src="AboutBanner.jpeg" alt="Clash of Clans About Banner">
-    <div class="bannertext">
-      <h2>What Players Are Saying</h2>
-      <p>Real Reviews from the Battlefield</p>
-    </div>
+
+<!-- Banner -->
+<div class="banner">
+  <!-- IMAGE BANNER FOR LANDING PAGE -->
+      <img src="AboutBanner.jpeg" alt="Clash of Clans Banner">
+      <div class="bannertext">
+          <h2>Top Strategy
+              <br> Game of 2025</h2>
+          <p>Lead Your Clan to Victory!</p>
+      </div>
   </div>
 
   <!-- Review Section -->
@@ -138,32 +144,32 @@
       <p>Hear from the global Clash community — from casual town hall raiders to hardcore clan war legends.</p>
     </div>
   </section>
-
+<!--REVIEW CARDS-->
   <section class="reviews">
     <div class="review-card">
       <h3>@TH13Legend</h3>
       <p>"The updates just keep getting better. Loving the new hero skins and strategy depth. COC never gets old."</p>
       <span>★★★★★</span>
     </div>
-
+<!--REVIEW CARDS-->
     <div class="review-card">
       <h3>@ClanQueen92</h3>
       <p>"Clan wars bring out the strategist in me. I’ve met my best gaming friends here. Truly a classic."</p>
       <span>★★★★☆</span>
     </div>
-
+<!--REVIEW CARDS-->
     <div class="review-card">
       <h3>@RaiderX</h3>
       <p>"Builder base is underrated. Best mobile game for competitive PvP. And the art style is iconic."</p>
       <span>★★★★★</span>
     </div>
-
+<!--REVIEW CARDS-->
     <div class="review-card">
       <h3>@NewbieNoMore</h3>
       <p>"Started just for fun. Now I’m TH15 and obsessed. Daily login. No regrets."</p>
       <span>★★★★☆</span>
     </div>
-   <!-- Submit Review Button -->
+   <!-- Submit Review Button/ DUMMY BUTTON -->
 <div>
    <a href="#" class="add-review" id="openReviewModal">Submit Your Review</a>
 </div>
